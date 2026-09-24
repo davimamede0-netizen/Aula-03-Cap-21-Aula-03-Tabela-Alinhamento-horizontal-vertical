@@ -21,6 +21,7 @@
         td {
             border: 1px solid black;
             padding: 8px;
+            height: 30px; 
             /* Alinhamento horizontal 
                 - center - centro
                 - left - esquerda
@@ -49,7 +50,7 @@
 
         .numero4 {
     vertical-align: bottom;
-    padding-bottom: 25px;
+    padding-bottom: 8px;
 }
 
     </style>
@@ -65,20 +66,37 @@
     -->
     <table>
         <tr> <!-- Primeira linha -->
-            <td class="numero2">A1</td>
-             
-            <td>B1</td>
-            <td class="numero">C1</td><label>aaaaaa</label>
+            <td class="numero2">A1<br>
+            <label>(esquerda)</label>
+            </td>
+            <td>B1<br>
+            <label>(padrão centro)</label>
+            </td>
+            <td class="numero">C1<br>
+            <label>(baixo)</label>
+            </td>
         </tr> <!-- Segunda linha -->
         <tr class="linha">
-            <td class="numero3">A2</td>
-            <td>B2</td>
-            <td class="numero4">C2</td>
+            <td class="numero3">A2<br>
+            <label>(topo)</label>
+            </td>
+            <td>B2<br>
+            <label>(padrão)</label>
+            </td>
+            <td class="numero4">C2<br>
+            <label>(baixo)</label>
+            </td>
         </tr>
         <tr> <!-- Terceira linha -->
-            <td class="numero3">A3</td>
-            <td class="numero4">B3</td>
-            <td>C3</td>
+            <td class="numero3">A3<br>
+            <label>(topo)</label>
+            </td>
+            <td class="numero4">B3<br>
+            <label>(baixo)</label>
+            </td>
+            <td>C3<br>
+            <label>(padrão)</label>
+            </td>
         </tr>
         <tr> <!-- Quarta linha -->
             <td>A4</td>
